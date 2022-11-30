@@ -9,18 +9,25 @@
 
     <EditText
         android:id="@+id/Num1"
+        android:digits="0123456789."
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Number 1"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>/>
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHint="#78909C" />/>
 
 
     <EditText
         android:id="@+id/Num2"
+        android:digits="0123456789."
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Number 2"
-        android:textAppearance="@style/TextAppearance.AppCompat.Large"/>/>
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHint="#78909C" />/>
+
 
 
 
